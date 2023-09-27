@@ -20,6 +20,11 @@ namespace consoleNumber
             Console.WriteLine(coin.ToString("C", culturePT));
             Console.WriteLine(coin.ToString("C", cultureDN));
             Console.WriteLine(coin.ToString("C", cultureJP));
+
+            //Math
+            Console.WriteLine(Math.Round(coin));
+            Console.WriteLine(Math.Ceiling(coin));
+            Console.WriteLine(Math.Floor(coin));
         }
     }
 }
